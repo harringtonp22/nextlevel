@@ -1,1 +1,104 @@
 # nextlevel
+<index.html>
+  
+  <head>
+    <title> Next Level Design </title>
+    <link rel="stylesheet" type="">
+  </head>
+  <body>
+    
+    <h1 id=title> Next Level Design </h1>
+    
+    <h2> Boston, Massachusetts</h2>
+    
+    
+    <p id= welcome2>Welcome to Next Level Design. Our company started about 5 years ago and have been providing costumers with great designs since then. We want to help everyday homeowners achieve the look they have always wanted. </p>
+    
+    <h5> Contact Us </h5>
+    
+    <p id=contact> Email: nextleveldesignco@gmail.com <br> Instagram: @next.level.design </p>
+    
+    <h3> Types of Design We Offer </h3>
+    <ul>
+            <li>Modern</li>
+            <li>Minimalist</li>
+            <li>Industrial</li>
+            <li>Mid-Centruy</li>
+            <li>Trasitional</li>
+            <li>We would love to try more styles too! </li>
+    </ul>
+    
+    <h4>About Us </h4>
+    
+    <div class="row">
+      <div class="column">Next level design provides new was to decorate every homes. Our 1st step is planning a budject and getting an idea of what the customer wants. Through ecperience we have learn that not everyone has the same ideas when it comes to design so we try to show the customer some of our work and let them pick a few opetions that they like. We always try to find a deadline for the project that is reasonable for our designers but is also done quickly for the homeowner. The goal is to get the prject done quickly, but some projects may take more time depending on hte size of the room(s).
+</div>
+      <div class="column"> We have designed many homes for famous celebrities such as Selena Gomez, Taylor Swift, Ellen, and many more. Don't let that scare you though we love to help anyone improve the look of their home. Our customers have all been more than satisfied with our work and we would never leave a costumers home until they love our work. ­­­­ We allow the costumer to show us things they like and we base all designs on how they want it to be done. Our company would never leave a job unfinished or something that  our customers don’t love.</div>
+    </body>
+     
+    
+      <img class=img src= "https://122322726-792026442864660283.preview.editmysite.com/uploads/1/2/2/3/122322726/oikos_1.jpg">
+      
+    <style>
+      
+      div{
+        column-gap: 15px;
+      }
+      #title {
+        font-family: fantasy;
+        font-size: 70px;
+        text-align: center;
+        color: black;
+      }
+     .column {
+        float: left;
+        width: 45%;
+       
+      }
+      .row {
+        
+        display: table;
+        clear: both;
+        width: 45%;
+        margin-left: 5px;
+        }
+      
+      #welcome2 {
+        font-family: sans-serif;
+        width: 55%;
+        text-align:center;
+        font-size: 16px;
+        margin-left:400px;
+      }
+    
+      .img {
+        border: solid 1.9 #FFC9C9;
+        float: right, up;
+        margin-top: -350px;
+        position: absolute;
+        margin-left: 100px;
+      }
+      h2{
+       text-align: center;
+        margin-top: -30px;
+      }
+
+      h3{
+        font-size:25px;
+        font-weight: bold;
+      }
+      li{
+        font-family: sans-serif;
+      }
+      h4{
+        font-size: 25px;
+        
+      }
+      body{
+        background-color: #FDECEC;
+        margin-left: 100px;
+      }
+      h5{
+        font-size: 25px;
+        margin-bottom: -3px;
+      }
